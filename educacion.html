@@ -69,12 +69,17 @@
       <form autocomplete="on">
         <fieldset>
           <legend>Agregar estudios</legend>
-            <p>Año</p>
-              <input type="number" Min="2017" max="2020">
-            <p>Institución</p>
-              <input type="text">
-            <p>Lugar</p>
-              <textarea name="lugar" rows="8" cols="80"></textarea>
+            <label for="año">Año</label>
+            <input type="number" Min="2017" max="2025" id="año"><br/><br/><br/>
+            <label for="institucion">Institución</label>
+            <input type="text" id="institucion"><br/><br/><br/>
+            <label for="lugar">Lugar</label>
+            <textarea name="lugar" rows="8" cols="80"></textarea><br/><br/><br/>
+            <label for="culmino">¿Culminó?</label>
+            <input type="radio" name="culmino">
+            <input type="radio" name="culmino"><br/><br/><br/>
+            <label for="enviar">Envia</label>
+            <input type="submit">
         </fieldset>
       </form>
     </section>
